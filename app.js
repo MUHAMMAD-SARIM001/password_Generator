@@ -7,7 +7,6 @@ const symbols = "!@#$%^&*()_+{}:\"<>?[];',./`~";
 function generatePass() {
   
     const length = document.getElementById("length").value;
-
     const includeUppercase = document.getElementById("uppercase").checked;
     const includeLowercase = document.getElementById("lowercase").checked;
     const includeNumbers = document.getElementById("numbers").checked;
